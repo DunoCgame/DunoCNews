@@ -1,0 +1,539 @@
+/* Pc y laptops */
+@media(min-width:1024px) and (max-width: 1600px){
+	
+	/* .body{ */
+		
+		/* background:purple; */
+	/* } */
+	
+
+
+/* elementos de Youtube */
+.suscriptYOUTUBEpequeno{
+display:none;	
+}
+/* elementos de Youtube */
+/* elementos de witter */
+.liketwitterPequeño{
+display:none;	
+}
+
+.twittertimelineTabletaPortrait{
+display:none;		
+}
+/* elementos de witter */
+
+
+	
+}/*cierre del mediaQuery*/
+
+/* Pc y laptops */
+	
+/*landscape--Horizontal*/
+	/*Tabletas*/
+@media(min-width:800px) and (max-width: 900px) and (orientation:landscape){
+	
+	/* .body{ */
+		
+		/* background:blue; */
+		
+	/* } */
+	
+/*barra social*/
+		#social {
+		position:relative;	
+		
+	}
+	/*barra social*/
+	/*Slideshow*/
+	.conslide  #slides .slidesjs-previous{
+			color:color:var(--estiloText);
+			float:left;
+			display:none;
+			top:70%;
+			position:absolute;
+			z-index:30;
+			list-style:none;
+			text-decoration:none;
+			font-size:33px;
+}
+.conslide  #slides .slidesjs-next{
+			color:color:var(--estiloText);
+			float:left;
+			display:none;
+			top:70%;
+			position:absolute;
+			right:20;
+			z-index:30;
+			list-style:none;
+			text-decoration:none;
+			font-size:33px;
+}
+	/*Slideshow*/
+	
+	
+/*post relacionados`*/
+		.rel_posts ul li {
+		  list-style: none;
+		  width: 40%;
+		  float:left;
+		   margin-left: 35px;
+		   margin-right: 35px;
+		   position:center;
+		}
+				.rel_posts img{
+border-radius:46px;
+width:230px;
+height:230px;
+margin-top:20px;
+margin-bottom:20px;
+				}
+
+/*post relacionados*/
+
+	/*mainVideo*/
+.mainVideos{
+margin-top:0px;	
+height:68%;	
+
+}
+.mainVideos #articles{
+	background:var(--fondoArticulos);
+	height:100%;
+	margin-bottom:20px; 
+}
+.mainVideos  iframe{
+	border-radius:40px;
+	margin-bottom:50px;
+	margin-top:20px; 
+	
+ }
+	/*mainVideo*/
+	/* elementos de Youtube */
+.suscriptYOUTUBEpequeno{
+display:none;	
+}
+/* elementos de Youtube */
+/* elementos de witter */
+.liketwitterPequeño{
+display:none;	
+}
+
+.twittertimelineTabletaPortrait{
+display:none;		
+}
+/* elementos de witter */
+
+
+	
+}/*cierre del mediaQuery*/
+
+
+/*Tabletas*/
+
+
+
+/*Telefonos*/
+@media(min-width:480px) and (max-width: 790px) and (orientation:landscape){
+	
+	/* .body{ */
+		
+		/* background:green; */
+	/* } */
+	
+	/*barra social*/
+		#social {
+		position:relative;	
+		
+	}
+	/*barra social*/
+	/*Slideshow*/
+	.conslide  #slides .slidesjs-previous{
+			color:color:var(--estiloText);
+			float:left;
+			display:none;
+			top:80%;
+			position:absolute;
+			z-index:30;
+			list-style:none;
+			text-decoration:none;
+			font-size:33px;
+}
+.conslide  #slides .slidesjs-next{
+			color:color:var(--estiloText);
+			float:left;
+			display:none;
+			top:80%;
+			position:absolute;
+			right:70;
+			z-index:30;
+			list-style:none;
+			text-decoration:none;
+			font-size:33px;
+}
+	/*Slideshow*/
+	
+	/* main */
+	/* imagenes de entradas  */
+.main #articles img{ 
+
+	margin-bottom:15px;
+	border-radius:10px;
+	width:auto;
+	max-width:100%;
+ }
+	/* main */
+/*post relacionados*/
+		.rel_posts ul li {
+		  list-style: none;
+		  width: 30%;
+		  float:left;
+		   margin-left: 15px;
+		}
+		
+		.rel_posts img{
+border-radius:46px;
+width:120px;
+height:120px;
+margin-top:20px;
+margin-bottom:20px;
+
+
+}
+/*post relacionados`*/
+
+	/*mainVideo*/
+.mainVideos {
+margin-top:0px;	
+height:100%;	
+}
+.mainVideos #articles{
+	background:var(--fondoArticulos);
+	height:100%;
+	margin-bottom:20px; 
+}
+.mainVideos  iframe{
+	border-radius:40px;
+	margin-bottom:50px;
+	margin-top:20px; 
+	
+ }
+	/*mainVideo*/
+
+				/* elementos de Youtube */
+.suscriptYOUTUBEgrande{
+display:none;	
+}
+.suscriptYOUTUBEpequeno{
+	display:table;	
+	
+}
+/* elementos de Youtube */
+/* elementos de witter */
+.liketwitterGrande{
+display:none;	
+}
+
+.twittertimeline{
+	display:none;	
+}
+.twittertimelineTabletaPortrait{
+display:none;		
+}
+
+/* elementos de witter */
+
+	
+	
+	
+	
+}
+
+/*Telefonos*/
+/*landscape--Horizontal*/
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+	/*portrait--Vertical*/
+	/*Tabletas*/
+@media(min-width:768px) and (max-width: 1023px) and (orientation:portrait){
+	
+	/* .body{ */
+		
+		/* background:orange; */
+	/* } */
+	
+	/*barra social*/
+		#social {
+		position:relative;	
+		
+	}
+	/*barra social*/
+	/* main */
+	/* imagenes de entradas  */
+.main #articles img{ 
+
+	margin-bottom:15px;
+	border-radius:10px;
+width:auto;
+	max-width:100%;
+ }
+	/* main */
+	
+	
+	/*Slideshow*/
+	.conslide  #slides .slidesjs-previous{
+			color:color:var(--estiloText);
+			float:left;
+			display:none;
+			top:56%;
+			position:absolute;
+			z-index:30;
+			list-style:none;
+			text-decoration:none;
+			font-size:33px;
+}
+.conslide  #slides .slidesjs-next{
+			color:color:var(--estiloText);
+			float:left;
+			display:none;
+			top:56%;
+			position:absolute;
+			right:70;
+			z-index:30;
+			list-style:none;
+			text-decoration:none;
+			font-size:33px;
+}
+	/*Slideshow*/
+	
+	
+			/*post relacionados*/
+		.rel_posts ul li {
+		  list-style: none;
+		  width: 30%;
+		  float:left;
+		   margin-left: 15px;
+		}
+		
+		.rel_posts img{
+border-radius:46px;
+width:120px;
+height:120px;
+margin-top:20px;
+margin-bottom:20px;
+
+
+}
+/*post relacionados`*/
+
+
+	/*aside*/
+	aside {
+	
+
+border-left:0px solid var(--bordescolorAside);
+}
+	/*aside*/
+
+
+
+	/*mainVideo*/
+.mainVideos {
+margin-top:0px;	
+height:100%;	
+}
+.mainVideos #articles{
+	background:var(--fondoArticulos);
+	height:100%;
+	margin-bottom:20px; 
+}
+.mainVideos  iframe{
+	border-radius:40px;
+	margin-bottom:50px;
+	margin-top:20px; 
+	
+ }
+	/*mainVideo*/
+
+	
+	
+	/* elementos de Youtube */
+.suscriptYOUTUBEpequeno{
+display:none;	
+}
+/* elementos de Youtube */
+/* elementos de witter */
+.liketwitterPequeño{
+display:none;	
+}
+
+.twittertimelineTabletaPortrait{
+display:none;		
+}
+/* elementos de witter */
+
+	
+	
+	
+}
+
+/*Tabletas*/
+/*Telefonos*/
+
+@media(min-width:320px) and (max-width: 760px) and (orientation:portrait){
+	
+	/* .body{ */
+		
+		/* background:yellow; */
+	/* } */
+	
+	/*barra social*/
+		#social {
+		position:relative;	
+		
+	}
+	/*barra social*/
+	/* main */
+	/* imagenes de entradas  */
+.main #articles img{ 
+
+	margin-bottom:15px;
+	border-radius:10px;
+	width:auto;
+	max-width:100%;
+ }
+	/* main */
+	
+	/*Slideshow*/
+		
+	.conslide{
+		display:none;
+	}
+	
+	.conslide  #slides .slidesjs-previous{
+			color:color:var(--estiloText);
+			float:left;
+			display:none;
+			top:56%;
+			position:absolute;
+			z-index:30;
+			list-style:none;
+			text-decoration:none;
+			font-size:33px;
+}
+	.conslide  #slides .slidesjs-next{
+			color:color:var(--estiloText);
+			float:left;
+			display:none;
+			top:56%;
+			position:absolute;
+			right:70;
+			z-index:30;
+			list-style:none;
+			text-decoration:none;
+			font-size:33px;
+}
+	/*Slideshow*/
+	
+	
+/*post relacionados*/
+.rel_posts ul li {
+	  list-style: none;
+	  width: 30%;
+	  float:left;
+	  margin-left: 35px;
+	  /* padding-right:20px; */
+}
+		
+.rel_posts img{
+	border-radius:46px;
+	width:110px;
+	height:110px;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+/*post relacionados`*/
+
+	/*mainVideo*/
+.mainVideos {
+margin-top:0px;	
+height:100%;
+
+}
+.mainVideos #articles{
+	background:var(--fondoArticulos);
+	height:100%;
+	
+	margin-bottom:20px; 
+}
+.mainVideos  iframe{
+	border-radius:40px;
+	margin-bottom:50px;
+	margin-top:20px; 
+	width:100%;	
+	
+ }
+	/*mainVideo*/
+	
+	/*aside*/
+	aside {
+	
+
+border-left:0px solid var(--bordescolorAside);
+}
+	/*aside*/
+	
+	/* elementos de Youtube */
+.suscriptYOUTUBEpequeno{
+display:none;	
+}
+/* elementos de Youtube */
+/* elementos de witter */
+.liketwitterPequeño{
+display:none;	
+}
+
+.twittertimeline{
+display:none;		
+}
+
+.twittertimelineTabletaPortrait{
+display:table;		
+}
+
+/* elementos de witter */
+
+	
+	
+	
+	.mainsingle #articles .thumb .wp-post-image{ 
+
+			width:auto;
+	max-width:100%;
+	
+ }
+ 
+ .mainsingle #articles img{ 
+				width:auto;
+	max-width:100%;
+	
+ }
+ 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+/*Telefonos*/
+/*portrait--Vertical*/
+
+
